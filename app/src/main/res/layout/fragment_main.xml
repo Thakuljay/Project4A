@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view1"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_margin="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/advertise1" />
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/thumbnail1"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Starbucks"
+                    android:textColor="#222"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title1"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="เติมความสุขให้วันศุกร์แบบง่ายๆเฉพาะวันนี้เท่านั้น! เมื่อซื้อเครื่องดื่มสตาร์บัคส์ประเภทใดก็ได้ ขนาด 12 ออนซ์ขึ้นไป ก็รับเครื่องดื่มประเภทใดก็ได้ฟรี 1 แก้วไปเลยค่ะ ชวนเพื่อนมาใช้สิทธิ์กันได้ตลอดทั้งวัน ที่ร้านสตาร์บัคส์"
+                    android:textColor="#666"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view3"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_margin="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail3"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/advertise2" />
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/thumbnail3"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Swensen"
+                    android:textColor="#222"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title3"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="กลับมาเอาใจคนรักรสชาติอันหอมหวานนุ่มละมุน ของมะม่วงอกร่อง กันแล้วค่ะ !! Swensens จัดเมนูพิเศษ กับ โปรโมชั่น สเวนเซ่นส์ Mango Paradise เอาใจคนรัก มะม่วง เริ่มต้นที่ 79.- บาท พบกับหลากหลายเมนูไอศกรีมสุดอร่อย ได้รสชาติมะม่วงอกร่องแท้ๆ เสิร์ฟพร้อมข้าวเหนียว มะพร้าวอ่อน ราดด้วยไวท์ครีมซอสและซอสมะม่วงเข้มข้น กับ 4 เมนูโดนๆ ในราคาพิเศษ ติดตามต่อได้ที่ >>> http://www.promotiontoyou.com/2013/02/promotion-swensens-mango-paradise-%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-79-%E0%B8%9A%E0%B8%B2%E0%B8%97-feb-2013/ | Promotion2U"
+                    android:textColor="#666"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_vie4"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_margin="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnai4"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/advertise4" />
+
+                <TextView
+                    android:id="@+id/titl4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/thumbnai4"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Best's cafe"
+                    android:textColor="#222"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titl4"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="อร่อยยิ่งกว่าของคาว แดกแล้วติดใจเพราะเราคัดวัตถุดิบพิเศษ ( กัญชา ) ทุกแก้วเราชงด้วยใจจากพวกเราครอบครัว Best's cafe"
+                    android:textColor="#666"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_margin="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/advertise6" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/thumbnail"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Oishi grand"
+                    android:textColor="#222"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="อร่อยไม่อั้นส่งท้ายปี...สายแข็งเตรียมตัว!! คอบุฟเฟ่ต์มีเฮกับโปรโมชั่นพิเศษสุดคุ้มส่งท้ายปี ยกก๊วนกันมาอิ่มได้ไม่อั้น มา 4 คน ลดทันที 400 บาท ที่ร้านอร่อยในเครือโออิชิทุกแห่ง"
+                    android:textColor="#666"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view6"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_margin="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnai6"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/advertise5" />
+
+                <TextView
+                    android:id="@+id/titl6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/thumbnai6"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="on the table"
+                    android:textColor="#222"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titl6"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="โปรโมชั่นพิเศษเพื่อคุณ On the Table ชวนกันมาอิ่มอร่อยกับ Happy Rice Now!! ความสุขที่แสนอร่อยกับทุกเมนูข้าว สั่งทุกเมนูวันนี้ รับฟรี ซุปมิโซะและสลัด เริ่มต้นเพียง 120 บาท เท่านั้น"
+                    android:textColor="#666"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_vie5"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_margin="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnai5"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/advertise3" />
+
+                <TextView
+                    android:id="@+id/titl5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/thumbnai5"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Pizza company"
+                    android:textColor="#222"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titl5"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="ทำลายทุกกฎเกณฑ์ความอร่อยใหม่! พิซซ่าทุเรียนหมอนทอง แท้ๆอร่อยไม่ปราณีใคร ที่ เดอะ พิซซ่า คอมปะนี เท่านั้น!8เริ่มต้นเพียง 259 บาท "
+                    android:textColor="#666"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

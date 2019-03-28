@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">BMJs Project</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_surname">Surname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="kmitl">KMITL</string>
+    <string name="your_qr_code">Your QR Code</string>
+    <string name="transfer">Transfer</string>
+    <string name="account_book">Account Book</string>
+    <string name="setting">Setting</string>
+    <string name="contract">Contract</string>
+    <string name="loading">Loading...</string>
+    <string name="home">Home</string>
+    <string name="receipt">Receipt</string>
+    <string name="logout">Logout</string>
+    <string name="birthdate_day_month_year">BirthDate : Day/Month/Year</string>
+    <string name="email">Email</string>
+    <string name="tel">Tel</string>
+    <string name="sex">Sex</string>
+    <string name="back">Back</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="surname">Surname</string>
+    <string name="nameuser">Name</string>
+    <string name="wallet_id">Wallet ID</string>
+    <string name="money">Money</string>
+    <string name="advertise">Advertise</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lipsum">Term and Condition\n\n- Lipsum,Lorem ipsum dolor sit amet,
+        consectetur adipiscing\n\n- Ipsum dolor sit amet, consectetur adipiscing\n\n- olor sit amet,
+        consectetur adipiscing</string>
+    <string name="scan_qr_code">  <u> Scan QR Code</u></string>
+    <string name="see_more"><u>See More</u></string>
+</resources>

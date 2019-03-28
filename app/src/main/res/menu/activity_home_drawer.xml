@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_white_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_transfer"
+            android:icon="@drawable/ic_monetization_on_white_48dp"
+            android:title="Transfer Funds" />
+        <item
+            android:id="@+id/nav_paybills"
+            android:icon="@drawable/ic_local_atm_white_24dp"
+            android:title="Pay Bills" />
+        <item
+            android:id="@+id/nav_transaction"
+            android:icon="@drawable/ic_receipt_white_24dp"
+            android:title="Transaction" />
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_build_white_24dp"
+                android:title="@string/setting" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_power_settings_new_white_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

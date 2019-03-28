@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#F44336</color>
+    <color name="green">#64dd17</color>
+    <color name="red">#d50000</color>
+    <color name="ColorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#D5AA00</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <!--<color name="colorPrimary">#EF5350</color>-->
+    <color name="colorPrimary">#303f9f</color>
+    <color name="colorSecondary">#001970</color>
+    <!--<color name="colorSecondary">#B61827</color>-->
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="transection">#FFFBE6</color>
+    <!--<color name="colorThird">#FF7961</color>-->
+    <color name="colorThird">#666ad1</color>
+    <color name="navBackground">#55d4e7e1</color>
+
+
+</resources>
